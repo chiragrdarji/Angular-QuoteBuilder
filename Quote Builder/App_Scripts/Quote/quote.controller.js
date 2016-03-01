@@ -42,8 +42,8 @@
 
                 StoreCustomerdata(CustomerData);
                 $("body").addClass('loading');
-                $("#quoteform").submit();
-                //$location.path('/Modules');
+                //$("#quoteform").submit();
+                $location.path('/Modules');
             }
             
         }
